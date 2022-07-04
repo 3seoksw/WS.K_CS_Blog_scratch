@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel = "stylesheet" href = "styles.css"/>
+        <meta charset = "UTF-8"/>
+        <meta name = "description" content = "HTML, CSS, JS Tutorial">
+        <meta name = "viewport" content = "width = device - width, initial - scale = 1.0">
+        <script src="https://kit.fontawesome.com/ca6c477c8a.js" crossorigin="anonymous"></script>
+        <title>About Me</title>
+    </head>
+
+    <body>
+        <header>
+            <a href = "index.html"><i class="fab fa-kickstarter-k fa-4x"></i></a>
+            <nav class = "header_nav">
+                <a href = "about_me.html">
+                    <div class = "header_category">About Me</div>
+                </a>
+    
+                <a href = "https://www.instagram.com/seoksw4003/" target = "_blank">
+                    <div class = "header_category">Instagram</div>
+                </a>
+    
+                <a href = "ggami.html">
+                    <div class = "header_category">Ggami</div>
+                </a>
+            </nav>
+        </header>
+
+        <main>
+            <div class = "hero">
+                <div class = "hero_info">
+                    <div id = "div_list">
+                        <h1>Kim, WooSeok</h1>
+                        <li>Name: WooSeok Kim</li>
+                        <li>DoB: 28 April 2000</li>
+                        <li>Country: Korea, South</li>
+                    </div>
+
+                    <p>I am a computer science student in the learning progress of front-end developer. I'm currently learning software developing from Sang-Myung University.</p>
+    
+                    <a href = "#details" class = "a_button">
+                        <button class = "button">More Details</button>
+                    </a>
+                </div>
+                <div class = "second">
+                    <img
+                        class = "second_kenny"
+                        src = "images/kenny_edited.png"
+                        alt = "kenny"
+                    />
+                </div>
+            </div>
+
+            <section class = "sec_details">
+                <div class = "div_avatar">
+                    <a href = "images/headshot.JPG" target = "_blank">
+                        <img 
+                            class = "avatar"
+                            src = "images/headshot.JPG" 
+                            alt = "K, WS's Headshot" 
+                        />
+                    </a>
+                </div>
+
+                <div class = "div_aboutme">
+                    <h2>About Me</h2>
+                    <p>Currently learning programming course and has strong eager to learn more. I have found fierce passion for software development when I was 15. </p>
+                </div>
+            </section>
+
+            <section>
+                <i class="far fa-id-card"></i>
+                <i class="far fa-id-card"></i>
+                <i class="far fa-id-card"></i>
+                <i class="far fa-id-card"></i>
+                <i class="far fa-id-card"></i>
+            </section>
+
+            <section class = "sec_contactme">
+                <form>
+                    <h2>Contact Me</h2>
+                    
+                    <div class = "div_input">
+                        <div class = "div_input_group">
+                            <label for = "first-name">First Name: </label>
+                            <input type = "text" id = "first-name" name = "first-name" value = "John"></input>
+                        </div>
+                        <div class = "div_input_group">
+                            <label for = "last-name">First Name: </label>
+                            <input type = "text" id = "last-name" name = "last-name" value = "Doe"></input>
+                        </div>
+                    </div>
+                    
+                    <div class = "div_input">
+                        <input type = "radio" id = "office" name = "office"/>
+                        <label for = "office">Office</label>
+                        <input type = "radio" id = "remote" name = "remote"/>
+                        <label for = "office">Remote</label>
+                        <input type = "radio" id = "other" name = "other"/>
+                        <label for = "office">Other</label>
+                    </div>
+
+                    <div class = "div_input">
+                        <input type = "checkbox" id = "contract" name = "contract" value = "contract"/>
+                        <label for = "contarct">Contract Work</label>
+                        <input type = "checkbox" id = "full-time" name = "full-time" value = "full-time"/>
+                        <label for = "contarct">Full-Time</label>
+                        <input type = "checkbox" id = "sponsorship" name = "sponsorship" value = "sponsorship"/>
+                        <label for = "contarct">Sponsorship</label>
+                    </div>
+
+                    <input class = "button" type = "submit" value = "Submit"/>
+                </form>
+            </section>
+
+        </main>
+
+        <footer>
+            <li><a>About me</a></li>
+            <li><a>Contact</a></li>
+            <li><a href = "https://github.com" target = "_blank">GitHub</a></li>
+        </footer>
+    
+    </body>
+</html>
